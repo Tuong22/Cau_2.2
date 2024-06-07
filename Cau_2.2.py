@@ -9,6 +9,6 @@ if st.button('Đăng nhập'):
     if username == 'trinhkientuong' and password == '24112003':
         st.success('Đăng nhập thành công')
         time.sleep(3)
-        wb.open_new_tab('https://www.uit.edu.vn/')
+        wb.open('https://www.uit.edu.vn/')
     else:
         st.error('Sai tên đăng nhập hoặc mật khẩu')
